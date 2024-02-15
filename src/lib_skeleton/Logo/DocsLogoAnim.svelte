@@ -1,6 +1,6 @@
 <figure>
 	<section class="img-bg" />
-	<img src="chatjournal-logo-no-bg-large.webp" class="mr-2 w-auto" alt="Chat Journal" />
+	<img src="chatjournal-logo-no-bg-large.webp" class="mr-2 w-auto" alt="Dear Diary" />
 </figure>
 
 <style lang="postcss">

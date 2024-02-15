@@ -18,15 +18,15 @@
 			<div class="space-y-4 tracking-wide">
 				<h1>
 					<span class="gradient-heading font-medium text-5xl "
-						><small>Chat with GPT as you Journal</small>
+						><small>Hello i am a sausage.</small>
 					</span>
 				</h1>
 				<!-- <h2 class="md:text-4xl">Private and intelligent.</h2> -->
 				<div class="text-2xl pb-4 pt-8 md:pt-0 tracking-wide leading-10 font-light">
-					The AI-powered journaling app that helps you
-					<span class="badge variant-soft-primary text-2xl px-4 pb-2">write</span>
-					<span class="badge variant-soft-secondary text-2xl px-4 pb-2">reflect</span> and
-					<span class="badge variant-soft-success text-2xl px-4 pb-2">connect</span><br />
+					These are my favourite sausages:
+					<span class="badge variant-soft-primary text-2xl px-4 pb-2">pork</span>
+					<span class="badge variant-soft-secondary text-2xl px-4 pb-2">lamb</span> and
+					<span class="badge variant-soft-success text-2xl px-4 pb-2">big ones</span><br />
 				</div>
 				<nav class="md:flex space-x-4 text-center md:text-left">
 					{#if $page.data.session}
@@ -36,7 +36,7 @@
 						</a>
 					{:else}
 						<a href="/auth/signup" class="btn btn-gradient-primary">
-							<span>Get Started for FREE</span>
+							<span>Sign up</span>
 							<span>&rarr;</span>
 						</a>
 						<a href="/auth/signin" class="btn variant-ghost-surface">Sign in</a>
@@ -44,7 +44,7 @@
 				</nav>
 			</div>
 			<!-- Logo -->
-			<DocsLogoAnim />
+			<DocsLogoAnim /> 
 		</div>
 	</header>
 
@@ -53,14 +53,13 @@
 	>
 		<div class="p-4 max-w-2xl mx-auto">
 			<span class="text-xl italic">
-				Chat Journal is more than just a diary. It's a smart and friendly companion that helps you
-				express yourself, understand your emotions and chat with your personal AI coach.
+				AI coach.
 			</span>
 		</div>
 
-		<!-- Features -->
+		<!-- Stuff -->
 		<section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-			<h2 class="sr-only">Features</h2>
+			<h2 class="sr-only">What it can do</h2>
 			<div class="card variant-glass-surface p-4 text-center space-y-4">
 				<div
 					class="bg-primary-800 w-20 mx-auto lg:-mt-10 aspect-square flex justify-center items-center rounded-token shadow"
@@ -69,8 +68,8 @@
 						<span class="fas fa-feather-pointed text-3xl" />
 					</div>
 				</div>
-				<h4>Journal like a PRO</h4>
-				<p>Get suggestions on what to write about and feedback on what you already wrote</p>
+				<h4>This is a cool feature</h4>
+				<p>Bloody good feature explainer text!</p>
 			</div>
 			<div class="card variant-glass-surface p-4 text-center space-y-4">
 				<div
@@ -78,8 +77,8 @@
 				>
 					<span class="fas fa-seedling text-3xl" />
 				</div>
-				<h4>ChatGPT that knows YOU</h4>
-				<p>It uses your journal entries and past conversations as context when chatting with you</p>
+				<h4>This is a cool feature</h4>
+				<p>Bloody good feature explainer text!</p>
 			</div>
 			<div class="card variant-glass-surface p-4 text-center space-y-4">
 				<div
@@ -87,20 +86,16 @@
 				>
 					<span class="fas fa-code-branch text-3xl" />
 				</div>
-				<h4>Varied outputs</h4>
-				<p>
-					Choose from a wide range of agents to chat with. Examples: a therapist, a comedian, a
-					friend, etc.
-				</p>
-			</div>
+				<h4>This is a cool feature</h4>
+				<p>Bloody good feature explainer text!</p>
 			<div class="card variant-glass-surface p-4 text-center space-y-4">
 				<div
 					class="bg-success-800 w-20 mx-auto lg:-mt-10 aspect-square flex justify-center items-center rounded-token shadow"
 				>
 					<span class="fas fa-file-shield text-3xl" />
 				</div>
-				<h4>Private, Fast and Secure</h4>
-				<p>No data is shared with 3rd parties. You can also run it on your own backend.</p>
+				<h4>This is a cool feature</h4>
+				<p>Bloody good feature explainer text!</p>
 			</div>
 		</section>
 
@@ -108,14 +103,14 @@
 		<aside class="alert variant-ghost-warning">
 			<i class="fa-solid fa-triangle-exclamation text-4xl mx-auto" />
 			<div class="alert-message">
-				Chat Journal is currently in beta. Please report bugs on GitHub.
+				This project is for personal use.
 			</div>
 			<div class="alert-actions mx-auto">
 				<a
-					href="https://github.com/alexpunct/chatgpt-journal/issues"
+					href="https://github.com/wolney8/chatgpt-journal/issues"
 					target="_blank"
 					rel="noreferrer"
-					class="btn variant-filled">Report Issue</a
+					class="btn variant-filled">Click here for a link</a
 				>
 			</div>
 		</aside>
@@ -126,13 +121,13 @@
 			<ul class="grid grid-cols-1 gap-4 max-w-[800px] mx-auto">
 				<li class="card variant-glass-surface p-4 space-y-4">
 					<div>
-						<h3>Alex Bejan</h3>
-						<p>Founder and core maintainer.</p>
+						<h3>Will Olney</h3>
+						<p></p>
 					</div>
 					<div class="flex justify-center space-x-4">
 						<a
 							class="unstyled"
-							href="https://github.com/alexpunct"
+							href="https://github.com/"
 							target="_blank"
 							rel="noreferrer"
 						>
@@ -140,7 +135,7 @@
 						</a>
 						<a
 							class="unstyled"
-							href="https://twitter.com/alexpunct"
+							href="https://twitter.com/"
 							target="_blank"
 							rel="noreferrer"
 						>
@@ -148,7 +143,7 @@
 						</a>
 						<a
 							class="unstyled"
-							href="https://www.linkedin.com/in/alexpunct"
+							href="https://www.linkedin.com/in/"
 							target="_blank"
 							rel="noreferrer"
 						>

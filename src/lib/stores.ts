@@ -24,7 +24,7 @@ export const storeFramework: Writable<string> = localStorageStore('storeFramewor
 export const userConversation: Writable<Message[] | []> = localStorageStore('userConversation', [
 	{
 		role: 'assistant',
-		content: 'Welcome to Chat Journal! What do you want to talk about?',
+		content: 'Hey, welcome to your Dear Diary, what do you want to talk about?',
 		time: new Date()
 	}
 ]);

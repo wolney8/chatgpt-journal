@@ -66,9 +66,9 @@
 
 	// SEO Metatags
 	const metaDefaults = {
-		title: 'Chat Journal - Express, Understand and Connect with AI',
+		title: 'Dear Diary',
 		description:
-			'Chat Journal is a web app that combines journaling and chatting with AI. It helps you express, understand yourself and connect with yourself.  Chat Journal  is not just a diary. It is your personal AI coach that you can access from any device, anywhere, anytime.',
+			'Dear Diary is a web app that combines diarising and talking with AI. It helps you express, understand yourself and connect with yourself.',
 		image: 'chatjournal-logo-no-bg-tiny.png'
 	};
 	const meta = {
@@ -111,10 +111,10 @@
 	<meta name="keywords" content="journal, chat, gpt-3, ai, diary, chatgpt, bard, bing, openai" />
 	<meta name="theme-color" content="#242c46" />
 	<meta name="author" content="Alex Bejan" />
-	<meta property="og:site_name" content="Chat Journal" />
+	<meta property="og:site_name" content="Dear Diary" />
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://www.chatjournal.ai{$page.url.pathname}" />
-	<meta property="og:locale" content="en_US" />
+	<meta property="og:url" content="https://ai.rocktscience.co.uk{$page.url.pathname}" />
+	<meta property="og:locale" content="en_GB" />
 	<meta property="og:title" content={meta.title} />
 	<meta property="og:description" content={meta.description} />
 	<meta property="og:image" content={meta.image} />
@@ -123,12 +123,12 @@
 	<meta property="og:image:width" content="1707" />
 	<meta property="og:image:height" content="1233" />
 	<!-- Open Graph: Twitter -->
-	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:site" content="@ChatJournalAi" />
-	<meta name="twitter:creator" content="@ChatJournalAi" />
+	<!-- <meta name="twitter:card" content="summary" />
+	<meta name="twitter:site" content="@" />
+	<meta name="twitter:creator" content="@" />
 	<meta name="twitter:title" content={meta.twitter.title} />
 	<meta name="twitter:description" content={meta.twitter.description} />
-	<meta name="twitter:image" content={meta.twitter.image} />
+	<meta name="twitter:image" content={meta.twitter.image} /> -->
 
 	<!-- Select Preset Theme CSS DO NOT REMOVE ESCAPES-->
 </svelte:head>
